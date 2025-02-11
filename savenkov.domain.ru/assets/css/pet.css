@@ -1,0 +1,33 @@
+main {
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+
+    .information {
+        max-width: 1100px;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        text-wrap: wrap;
+
+        span {
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .image__box {
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            img {
+                width: 33%
+            }
+        }
+
+
+    }
+}

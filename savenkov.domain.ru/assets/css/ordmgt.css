@@ -1,0 +1,47 @@
+.main {
+    gap: 20px;
+    flex-direction: column;
+
+    .sort {
+        display: flex;
+        gap: 50px;
+        select {
+            margin-top: 10px;
+            font-size: 14px;
+            padding: 5px 7px;
+        }
+    }
+
+    .ads {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        min-width: 350px;
+
+        .ad {
+            width: 25%;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            img {
+                width: 100%;
+            }
+
+            span {
+                font-size: 15px;
+                font-weight: 600;
+            }
+
+            select {
+                font-size: 14px;
+                padding: 5px 5px;
+            }
+        }
+    }
+}

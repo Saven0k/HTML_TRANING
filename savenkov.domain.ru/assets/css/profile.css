@@ -1,0 +1,92 @@
+.main {
+    flex-direction: column;
+    gap: 30px;
+
+
+    .box__info {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        border: 1px solid #000;
+        padding: 10px 15px;
+        justify-content: start;
+        gap: 15px;
+
+        span {
+            font-size: 15px;
+            font-weight: 600;
+            border-bottom: 1px dotted #000;
+        }
+        h4{
+            text-align: start;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .number_phone , .email__box {
+            display: flex;
+            gap: 15px;
+        }
+    }
+
+    .box__ads {
+        gap: 30px;
+        flex-direction: column;
+
+    
+        .box {
+
+            max-width: 1100px;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            padding: 10px 15px;
+            
+
+            .ad {
+                width: 25%;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                img {
+                    width: 100%;
+                }
+
+                span {
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .active {
+            border: 10px double red;
+        }
+        .moderation {
+            border: 10px double rgb(30, 228, 4);
+        }
+        .finded {
+            border: 10px double rgb(19, 4, 228);
+        }
+        .in__archive {
+            border: 10px double rgb(221, 4, 228);
+        }
+    }
+
+    button {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px 15px;
+        outline: none;
+        background-color: #fff;
+        transition: 0.5s;
+    }
+
+    button:hover {
+        box-shadow: 5px 5px 100px red;
+    }
+}
